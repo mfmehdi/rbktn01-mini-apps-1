@@ -1,2 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src=""></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <div class="player">
+        <div>
+          <h1>Player1 :</h1>
+          <h2 id="nb-player1"></h2>
+        </div>
+        <div>
+          <h2>Round :</h2>
+          <h1 id="round"></h1>
+        </div>
+        <div>
+          <h1>Player2 :</h1>
+          <h2 id="nb-player2"></h2>
+        </div>
+      </div>
 
+      <div class="table">
+        <div class="row">
+          <div id="0" class="cell1" onclick="newGame.click(id)"></div>
+          <div id="1" class="cell2" onclick="newGame.click(id)"></div>
+          <div id="2" class="cell2" onclick="newGame.click(id)"></div>
+        </div>
 
+        <div class="row">
+          <div id="3" class="cell2" onclick="newGame.click(id)"></div>
+          <div id="4" class="cell2" onclick="newGame.click(id)"></div>
+          <div id="5" class="cell2" onclick="newGame.click(id)"></div>
+        </div>
+
+        <div class="row">
+          <div id="6" class="cell2" onclick="newGame.click(id)"></div>
+          <div id="7" class="cell2" onclick="newGame.click(id)"></div>
+          <div id="8" class="cell2" onclick="newGame.click(id)"></div>
+        </div>
+      </div>
+      <button onclick="newGame.init()">Replay</button>
+      <h1>
+        Winner :
+        <h1 id="winner"></h1>
+      </h1>
+    </center>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
