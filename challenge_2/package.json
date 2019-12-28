@@ -1,0 +1,22 @@
+{
+  "name": "csv-report-generator",
+  "version": "1.0.0",
+  "description": "CSV Report Generator",
+  "author": "Mehdi",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fast-csv": "^4.0.2",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {},
+  "main": "server.js"
+}
