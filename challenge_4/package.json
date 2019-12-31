@@ -1,0 +1,23 @@
+{
+  "name": "connect-four",
+  "version": "1.0.0",
+  "description": "Connect Four",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js",
+    "react-dev": "webpack -d --watch"
+  },
+  "author": "mehdi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
